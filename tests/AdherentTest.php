@@ -5,7 +5,7 @@ use PHPUnit\Framework\TestCase;
 
 final class AdherentTest extends TestCase {
     public function testCanBeCreated(): void {
-        $adherent = new Adherent();
+        $adherent = new Adherent("michmich", "delacompta", "2019-12-12");
         $this->assertInstanceOf(Adherent::Class,$adherent);
     }
 }
