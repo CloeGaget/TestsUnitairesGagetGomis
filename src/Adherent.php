@@ -12,4 +12,8 @@ final class Adherent
         $this->nom = $nom;
         $this->date = $date;
     }
+    
+    public function getIdentifiantNormalise() {
+        return strtoupper($this->nom) . strtoupper($this->prenom) . str_replace("/", "", $this->date);
+    }
 }
