@@ -8,4 +8,12 @@ class UserTest extends TestCase {
     public function testNewUser() {
         $this->asserInstanceOf(User::class, new User());
     }
+    
+    
+    public function testUserPrenom() {
+        $user = new User();
+        $user->setPrenom("Michel");
+        $this->assertEquals("Michel", $user->getPrenom());
+    }
+
 }
