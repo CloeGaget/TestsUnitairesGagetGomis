@@ -1,7 +1,3 @@
 index:
     path: /
-<<<<<<< HEAD
     controller: App\Controller\IndexController::index
-=======
-    controller: App\Controller\DefaultController::index
->>>>>>> branch 'master' of https://github.com/CloeGaget/TestsUnitairesGagetGomis.git
