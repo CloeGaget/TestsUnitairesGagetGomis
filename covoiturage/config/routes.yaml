@@ -10,6 +10,10 @@ research-trajet:
     path: /home/recherche
     controller:  App\Controller\IndexController::homepageLinkResearchTrajet
     
+register: 
+    path: /home/register
+    controller: App\Controller\IndexController::homepageLinkRegister
+    
 login: 
     path: /login
     controller: App\Controller\SecuriteController::login
