@@ -4,7 +4,7 @@ namespace App\Tests\Entity;
 use PHPUnit\Framework\WebTestCase;
 
 class IndexControllerTest extends WebTestCase {
-    public function testHomepage()
+    public function testIndex()
     {
         $client = static::createClient();
         $client->request('GET', '/');
