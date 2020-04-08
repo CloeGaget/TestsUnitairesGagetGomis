@@ -1,3 +1,19 @@
 index:
     path: /
     controller: App\Controller\IndexController::index
+    
+homePageLinkConnexion:
+    path: /home/connexion
+    controller: App\Controller\IndexController::homepageLinkConnexion
+    
+research-trajet:
+    path: /home/recherche
+    controller:  App\Controller\IndexController::homepageLinkResearchTrajet
+    
+login: 
+    path: /login
+    controller: App\Controller\SecuriteController::login
+    
+logout: 
+    path: /login
+    controller: App\Controller\SecuriteController::logout

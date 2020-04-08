@@ -15,7 +15,7 @@ class IndexControllerTest extends WebTestCase {
     public function testHomepageLinkConnexion()
     {
         $client = static::createClient();
-        $crawler = $client->request('GET', '/');
+        $crawler = $client->request('GET', '/home/connexion');
 
         $link = $crawler->selectLink('Connexion')->link();
         
