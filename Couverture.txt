@@ -1,16 +1,18 @@
 Couverture des tests :
 
+-- ENTITES --
 User :
-On teste le constructeur, le prénom, le pseudo, le mot de passe et l'email.
+On teste le constructeur, le prÃ©nom, le pseudo, le mot de passe et l'email.
 
 Trajet : 
-On teste le constructeur, le nombre de places, la date, les lieux de départ et arrivée ainsi que le conducteur.
+On teste le constructeur, le nombre de places, la date, les lieux de dÃ©part et arrivÃ©e ainsi que le conducteur.
 
 Lieu :
-On teste le constructeur, le nom et les coordonnées.
+On teste le constructeur, le nom et les coordonnÃ©es.
 
+-- CONTROLLER --
 Authentification :
-On teste la connexion et la déconnexion.
+On teste la connexion et la dÃ©connexion.
 
 Index :
 On teste la page d'accueil, la connexion via cette page, l'inscription via cette page et la recherche de trajets.
